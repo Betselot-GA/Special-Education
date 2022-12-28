@@ -16,11 +16,10 @@ function WorkingHours() {
                     <span>24 Hours Service</span>
                     <h4 class="mb-3">Online Appoinment</h4>
                     <p class="mb-4">
-                      Get ALl time support for emergency.We have introduced the
-                      principle of family medicine.
+                      Get All time support for emergency.
                     </p>
                     <a
-                      href="appoinment.html"
+                      href="/appointment"
                       class="btn btn-main btn-round-full"
                     >
                       Make a appoinment
@@ -35,14 +34,12 @@ function WorkingHours() {
                     <h4 class="mb-3">Working Hours</h4>
                     <ul class="w-hours list-unstyled">
                       <li class="d-flex justify-content-between">
-                        Sun - Wed : <span>8:00 - 17:00</span>
+                        Mon - Fri : <span>02:00 - 1:30 Local Time</span>
                       </li>
                       <li class="d-flex justify-content-between">
-                        Thu - Fri : <span>9:00 - 17:00</span>
+                        Sat : <span>02:00 - 06:00 Local Time</span>
                       </li>
-                      <li class="d-flex justify-content-between">
-                        Sat - sun : <span>10:00 - 17:00</span>
-                      </li>
+                  
                     </ul>
                   </div>
 
@@ -50,11 +47,11 @@ function WorkingHours() {
                     <div class="feature-icon mb-4">
                       <i class="icofont-support"></i>
                     </div>
-                    <span>Emegency Cases</span>
-                    <h4 class="mb-3">1-800-700-6200</h4>
+                    <span>Contact</span>
+                    <h4 class="mb-3">+251 985 76 79 59</h4>
+                    <h4 class="mb-3">++251 917 38 77 71</h4>
                     <p>
-                      Get ALl time support for emergency.We have introduced the
-                      principle of family medicine.Get Conneted with us for any
+                      Get All time support for emergency. Get Conneted with us for any
                       urgency .
                     </p>
                   </div>

@@ -4,27 +4,23 @@ import "./landing.css"
 function Landing() {
     return (
       <>
-        <section class="banner">
+        <section class="banner" style={{"color":"white"}}>
           <div class="container">
             <div class="row">
               <div class="col-lg-6 col-md-12 col-xl-7">
                 <div class="block">
                   <div class="divider mb-3"></div>
                   <span class="text-uppercase text-sm letter-spacing ">
-                    Total Health care solution
+                    Autism World
                   </span>
-                  <h1 class="mb-3 mt-3">Your most trusted health partner</h1>
+                  <h1 class="mb-3 mt-3" style={{"color":"white"}}>Your most trusted Care giver</h1>
 
-                  <p class="mb-4 pr-5">
-                    A repudiandae ipsam labore ipsa voluptatum quidem quae
-                    laudantium quisquam aperiam maiores sunt fugit, deserunt rem
-                    suscipit placeat.
-                  </p>
+                
                   <div class="btn-container ">
                     <a
-                      href="appoinment.html"
-                      target="_blank"
+                      href="/appointment"
                       class="btn btn-main-2 btn-icon btn-round-full"
+                      style={{"color":"white"}}
                     >
                       Make appoinment{" "}
                       <i class="icofont-simple-right ml-2  "></i>

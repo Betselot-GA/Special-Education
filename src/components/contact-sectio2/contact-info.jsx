@@ -1,6 +1,30 @@
-import React from 'react';
+import React, {useRef} from 'react';
+import emailjs from "emailjs-com";
 
 function ContactInfo() {
+  const form = useRef();
+
+   const sendEmail = (e) => {
+     e.preventDefault();
+
+     emailjs
+       .sendForm(
+         "service_jfuuanj",
+         "template_uq1cgg9",
+         e.target,
+         "09MfdUX2dQNKDIGa4"
+       )
+       .then(
+         (result) => {
+           console.log("resultttttttttttttttttttttttttttt ", result.text);
+         },
+         (error) => {
+           console.log("Erorrrrrrrrrrrrrrrrrrrrrrrr ", error.text);
+         }
+       );
+     e.target.reset();
+   };
+
   return (
     <>
       <section className="contact-form-wrap section">
@@ -10,11 +34,11 @@ function ContactInfo() {
               <div className="section-title text-center">
                 <h2 className="text-md mb-2">Contact us</h2>
                 <div className="divider mx-auto my-4"></div>
-                <p className="mb-5">
+                {/* <p className="mb-5">
                   Laboriosam exercitationem molestias beatae eos pariatur,
                   similique, excepturi mollitia sit perferendis maiores ratione
                   aliquam?
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
@@ -23,8 +47,7 @@ function ContactInfo() {
               <form
                 id="contact-form"
                 className="contact__form "
-                method="post"
-                action="mail.php"
+                onSubmit={sendEmail}
               >
                 <div className="row">
                   <div className="col-12">
@@ -70,7 +93,7 @@ function ContactInfo() {
                         id="subject"
                         type="text"
                         className="form-control"
-                        placeholder="Your Query Topic"
+                        placeholder="Your Header Topic"
                         required
                       />
                     </div>

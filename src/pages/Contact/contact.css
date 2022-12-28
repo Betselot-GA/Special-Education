@@ -498,7 +498,7 @@ a:focus {
   position: relative;
   overflow: hidden;
   background: #fff;
-  background: url("/public/images/bg/slider-bg-1.jpg") no-repeat;
+  background: url("/public/images/bg/background.jpg") no-repeat;
   background-size: cover;
   min-height: 550px;
 }
@@ -853,13 +853,13 @@ a:focus {
   position: relative;
 }
 .testimonial:before {
-  width: 48%;
+  width: 50%;
   height: 100%;
   top: 0;
   left: 0px;
   position: absolute;
   content: "";
-  background: url("/public/images/bg/bg-2.jpg") no-repeat 50% 50%;
+  background: url("/public/images/bg/specialeducation.jpg") no-repeat 50% 50%;
 }
 .testimonial .slick-dots {
   text-align: left;

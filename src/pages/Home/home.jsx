@@ -17,7 +17,7 @@ function HomePage() {
         <Achivements />
         <Facts />
         <BookAppointment />
-        <Testimonials/>
+        {/* <Testimonials/> */}
         
     </>);
 }

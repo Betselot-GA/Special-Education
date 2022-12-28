@@ -10,19 +10,19 @@ function Achivements() {
                 <div class="col-lg-3 col-md-6 col-sm-6">
                   <div class="counter-stat">
                     <i class="icofont-doctor"></i>
-                    <span class="h3 counter" data-count="58">
+                    <span class="h3 counter" data-count="1">
                       0
                     </span>
-                    k<p>Happy People</p>
+                    %<p>children worldwide</p>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                   <div class="counter-stat">
                     <i class="icofont-flag"></i>
-                    <span class="h3 counter" data-count="700">
+                    <span class="h3 counter" data-count="72">
                       0
                     </span>
-                    +<p>Surgery Comepleted</p>
+                    %<p>children in developed countries</p>
                   </div>
                 </div>
 
@@ -30,18 +30,18 @@ function Achivements() {
                   <div class="counter-stat">
                     <i class="icofont-badge"></i>
                     <span class="h3 counter" data-count="40">
-                      0
+                      14.5
                     </span>
-                    +<p>Expert Doctors</p>
+                    %<p>Expert Doctors</p>
                   </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
                   <div class="counter-stat">
                     <i class="icofont-globe"></i>
                     <span class="h3 counter" data-count="20">
-                      0
+                      16.8
                     </span>
-                    <p>Worldwide Branch</p>
+                    %<p>Black Students</p>
                   </div>
                 </div>
               </div>

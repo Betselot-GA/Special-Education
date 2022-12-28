@@ -9,21 +9,22 @@ function ContactSection1() {
                 <div class="contact-block mb-4 mb-lg-0">
                   <i class="icofont-live-support"></i>
                   <h5>Call Us</h5>
-                  +823-4565-13456
+                  +251917387771
+              
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
                 <div class="contact-block mb-4 mb-lg-0">
                   <i class="icofont-support-faq"></i>
                   <h5>Email Us</h5>
-                  contact@mail.com
+                  autismworld082@gmail.com
                 </div>
               </div>
               <div class="col-lg-4 col-md-12">
                 <div class="contact-block mb-4 mb-lg-0">
                   <i class="icofont-location-pin"></i>
                   <h5>Location</h5>
-                  North Main Street,Brooklyn Australia
+                  Megenagna, Addis Ababa, Ethiopia
                 </div>
               </div>
             </div>

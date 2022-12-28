@@ -11,10 +11,10 @@ function ServicesCTA() {
                   <div class="divider mb-4"></div>
                   <h2 class="mb-5 text-lg">
                     We are pleased to offer you the{" "}
-                    <span class="title-color">chance to have the healthy</span>
+                    <span class="title-color">chance to have healthy child</span>
                   </h2>
                   <a
-                    href="/appoinment"
+                    href="/appointment"
                     class="btn btn-main-2 btn-round-full"
                   >
                     Get appoinment<i class="icofont-simple-right  ml-2"></i>
